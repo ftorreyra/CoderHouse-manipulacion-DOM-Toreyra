@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <h1>FENIX ALMACEN</h1>
+        </div>
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#">OFERTAS</a></li>
+                <li><a href="#">ALMACEN</a></li>
+                <li><a href="#">FRIOS Y CONGELADOS</a></li>
+                <li><a href="#">FRUTAS Y VERDURAS</a></li>
+                <li><a href="#">COSMÉTICA</a></li>
+                <li><a href="#">HOGAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="productContainer">
+        <div class="productItem">
+            <img class="productItem__img" src="Pasta-de-Zanahoria-y-jengibre-Troncoso.jpg" alt="">
+            <p>Pasta de zanahoria y jengibre</p>
+            <div class="productItem__price__buy">
+                <span>$450</span>
+                <button class="productItem__button__buy" value="Pasta" type="button">Comprar</button>
+                <button class="productItem__delete" value="Pasta" type="button">Quitar</button>
+            </div>
+        </div>
+        
+        <div class="productItem">
+            <img class="productItem__img" src="Miel-Liquida-Madhu.jpg" alt="">
+            <p>Miel líquida Madhu</p>
+            <div class="productItem__price__buy">
+                <span>$670</span>
+                <button class="productItem__button__buy" value="Miel" type="button">Comprar</button>
+                <button class="productItem__delete" value="Miel" type="button">Quitar</button>
+            </div>
+        </div>
+        <div class="productItem">
+            <img class="productItem__img" src="Zuelo-Aceite-Oliva-Intenso.jpg" alt="">
+            <p>Zuelo aceite de oliva intenso</p>
+            <div class="productItem__price__buy">
+                <span>$1050</span>
+                <button class="productItem__button__buy" value="Oliva" type="button">Comprar</button>
+                <button class="productItem__delete" value="Oliva" type="button">Quitar</button>
+            </div>
+        </div>
+    </section>
+    <button class="buttonFactu"> Ver factura</button>
+    <div id="sidebar-cart" class="sidebar-cart"></div>
+</body>
+</html>
